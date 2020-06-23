@@ -488,10 +488,10 @@ F 3 "" H 7075 1325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D3
+L Device:D_Small D2
 U 1 1 5EF62358
 P 7550 1600
-F 0 "D3" V 7596 1530 50  0000 R CNN
+F 0 "D2" V 7596 1530 50  0000 R CNN
 F 1 "D_Small" V 7505 1530 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 7550 1600 50  0001 C CNN
 F 3 "~" V 7550 1600 50  0001 C CNN
@@ -563,10 +563,10 @@ ROW1
 Wire Wire Line
 	6600 2350 6900 2350
 $Comp
-L Device:D_Small D2
+L Device:D_Small D3
 U 1 1 5EF8251B
 P 6900 2250
-F 0 "D2" V 6946 2180 50  0000 R CNN
+F 0 "D3" V 6946 2180 50  0000 R CNN
 F 1 "D_Small" V 6855 2180 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 6900 2250 50  0001 C CNN
 F 3 "~" V 6900 2250 50  0001 C CNN
@@ -576,4 +576,12 @@ $EndComp
 Connection ~ 6900 2350
 Wire Wire Line
 	6900 2350 7550 2350
+Text GLabel 5000 3150 2    50   Input ~ 0
+COL1
+Text GLabel 5000 3250 2    50   Input ~ 0
+COL0
+Text GLabel 5000 3350 2    50   Input ~ 0
+ROW1
+Text GLabel 5000 4650 2    50   Input ~ 0
+ROW0
 $EndSCHEMATC
