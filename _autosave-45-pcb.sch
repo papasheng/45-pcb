@@ -576,4 +576,12 @@ $EndComp
 Connection ~ 6900 2350
 Wire Wire Line
 	6900 2350 7550 2350
+Text GLabel 5000 3150 2    50   Input ~ 0
+COL1
+Text GLabel 5000 3250 2    50   Input ~ 0
+COL0
+Text GLabel 5000 3350 2    50   Input ~ 0
+ROW1
+Text GLabel 5000 4650 2    50   Input ~ 0
+ROW0
 $EndSCHEMATC
